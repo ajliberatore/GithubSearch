@@ -32,6 +32,9 @@ Application level. This is fine for our use case here since there isn't much sco
 - Definitely adding unit testing. They were left out due to time. Dependency injection makes this easy though.
 We can mock or create custom test objects for our dependencies to give our tests control over their behavior.
 This leaves the focus on the behavior of the system under test. 
+- Handling more specific error states. Currently, we are handling errors by logging them and telling the user they have
+no results to show. An example would be no internet connection. We could show the user a Toast or Snackbar message
+explaining that there is a connection issue. With some more time alloted, I would definitely add this as it is good UX.
 - Possibly saving some data to disk. I thought about how we could add Room to help offline use and also with the 
 rate limiting problem. Ultimately, I decided this wasn't a priority for the time allotted given the 
 nature of the project. That being a search for any number of queries. The database would only help for 
