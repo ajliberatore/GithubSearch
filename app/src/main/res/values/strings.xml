@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GithubSearch</string>
+    <string name="error_loading_more_data">Error loading more data</string>
+    <string name="retry">Retry</string>
+    <string name="num_repositories">%d Repositories</string>
+    <string name="num_repositories_plus">%d+ Repositories</string>
+    <string name="no_results">No results</string>
+    <string name="search_by_username">Search by username</string>
+</resources>
